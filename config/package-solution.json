@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-start-ofthe-month-react-client-side-solution",
+    "id": "0a98b0b5-bc3c-4baa-a543-4c5f93d2520c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-start-ofthe-month-react.sppkg"
+  }
+}

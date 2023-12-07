@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-start-ofthe-month-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxStartOftheMonthReact/SpfxStartOftheMonthReactWebPart.js",
+          "manifest": "./src/webparts/spfxStartOftheMonthReact/SpfxStartOftheMonthReactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxStartOftheMonthReactWebPartStrings": "lib/webparts/spfxStartOftheMonthReact/loc/{locale}.js"
+  }
+}
